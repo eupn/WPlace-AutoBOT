@@ -15,7 +15,7 @@
       MIN: 3,          // Random range minimum
       MAX: 20,         // Random range maximum
     },
-    PAINTING_SPEED_ENABLED: false, // Off by default
+    PAINTING_SPEED_ENABLED: true, // Off by default
     AUTO_CAPTCHA_ENABLED: true, // Turnstile generator enabled by default
     TOKEN_SOURCE: "generator", // "generator", "manual", or "hybrid" - default to generator
     COOLDOWN_CHARGE_THRESHOLD: 1, // Default wait threshold
