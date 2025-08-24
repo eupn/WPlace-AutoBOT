@@ -7,10 +7,10 @@
     LOG_INTERVAL: 10,
     PAINTING_SPEED: {
       MIN: 1,          // Minimum 1 pixel batch size
-      MAX: 1000,       // Maximum 1000 pixels batch size
+      MAX: 100,       // Maximum 1000 pixels batch size
       DEFAULT: 5,      // Default 5 pixels batch size
     },
-    BATCH_MODE: "normal", // "normal" or "random" - default to normal
+    BATCH_MODE: "random", // "normal" or "random" - default to normal
     RANDOM_BATCH_RANGE: {
       MIN: 3,          // Random range minimum
       MAX: 20,         // Random range maximum
